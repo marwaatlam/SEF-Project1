@@ -94,6 +94,7 @@ li{
     top: 140%; 
     left: 0;
     opacity: 0;
+    transition: opacity 0.5s;
 }
 .home-dropdown-ul{
     padding-top: 30px;
@@ -106,7 +107,6 @@ li{
 
 .home-dropdown-li:hover .home-dropdown{
     visibility: visible;
-    transition: 0.5s;
     opacity: 1;
 }
 .home-dropdown-ul li::after{
