@@ -93,7 +93,7 @@ li{
     visibility: hidden;
     top: 140%; 
     left: 0;
-    transition: 1s;
+    opacity: 0;
 }
 .home-dropdown-ul{
     padding-top: 30px;
@@ -106,6 +106,8 @@ li{
 
 .home-dropdown-li:hover .home-dropdown{
     visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
 }
 .home-dropdown-ul li::after{
     position: absolute;
@@ -196,12 +198,11 @@ li{
     margin-left: 100px;
 }
 .welcome-icon{
-    color: blue;
+    color: #87ab69;
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 22px;
     position: relative;
-    /* z-index: 3; */
 }
 .welcome-item-title{
     font-size: 24px;
@@ -221,7 +222,7 @@ li{
     z-index: 3;
 }
 .welcome-item-a{
-    color: #728359;
+    color: #5b7149;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:16 ;
     text-transform: capitalize;
@@ -406,7 +407,7 @@ li{
     padding-top: 24px;
     padding-left: 9px;
     float: left;
-    color: rgb(99, 99, 216);
+    color: #87ab69;
     position: relative;
     z-index: 3;
 }
@@ -451,7 +452,7 @@ li{
     color: black;
 }
 .offer-item:hover .offer-icon{
-    color: rgb(88, 88, 218);
+    color: #5b7149
 }
 /* /////////////////////////////////////////section5//////////////////////////////////////////////// */
 .choose-us-parent{
@@ -548,7 +549,7 @@ li{
     text-align: center;
  }
 .section6-icon{
-    color: #989ef0;
+    color: #87ab69;
     font-size: 40px;
     margin-bottom: 15px;
  }
